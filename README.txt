@@ -52,4 +52,4 @@ It is recommended to use a virtual environment to manage dependencies and avoid 
 - In this solution gpt-4.1 model has been used with Response API.
 - To produce structured output in json or other formats, you can use the md output and add another step with generative AI to provide the desired format and fields.
 - Please check the input document sensitivity labels and protection rights, this code will not work on the sensitive documents.
-- For questions or issues, review the code comments in `info_extractor.py`.
+- For questions or issues, review the code comments in the source code.
