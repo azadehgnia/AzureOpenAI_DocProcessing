@@ -31,7 +31,7 @@ It is recommended to use a virtual environment to manage dependencies and avoid 
 
 ## 2. How to Use the Code
 
-- Place your input files (PDFs, DOCXs, CSVs, etc.) in the `data/input/` folder.
+- Place your input files (PDFs, CSVs, etc.) in the `data/input/` folder.
 - The main script is `info_extractor.py`.
 - To run the script:
   ```powershell
@@ -49,7 +49,7 @@ It is recommended to use a virtual environment to manage dependencies and avoid 
 - If you add new dependencies, update `requirements.txt` and re-run `pip install -r requirements.txt`.
 
 ## 5. Additional Notes
-- In this solution gpt-4.1 model has been used with the chat completion endpoint
+- In this solution gpt-4.1 model has been used with Response API.
 - To produce structured output in json or other formats, you can use the md output and add another step with generative AI to provide the desired format and fields.
 - Please check the input document sensitivity labels and protection rights, this code will not work on the sensitive documents.
 - For questions or issues, review the code comments in `info_extractor.py`.
