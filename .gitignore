@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Environment variants
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Data (keep structure, not contents)
+data/input/*
+!data/input/.keep
+
+# OS
+Thumbs.db
+.DS_Store
