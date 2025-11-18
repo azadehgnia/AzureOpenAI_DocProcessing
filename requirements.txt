@@ -1,0 +1,14 @@
+azure-identity
+azure-storage-blob
+openai
+aiohttp
+ipykernel
+python-dotenv
+requests
+azure-search-documents==11.7.0b1
+tiktoken
+pypdf
+python-docx
+pydantic
+pyodbc
+SQLAlchemy>=2.0
